@@ -1,0 +1,428 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+  background-color: rgb(69, 60, 60);
+
+}
+.collection{
+  /* height: 400px; */
+  width: 820px;
+ margin: 10px;
+ padding-bottom: 25px;
+  /* display: flex;
+  /* display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-between; */
+   /* border: 2px solid black;  */
+
+}
+.SignMain{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #5a0385, rgb(200, 129, 157));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signh1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right:40px ;
+  padding-bottom: 20px;
+}
+.signinbtn{
+  padding: 10px ;
+  width: 70%;
+border-radius: 10px;
+border: none;
+margin-left: 55px;
+cursor: pointer;
+margin-top: 70px;
+font-size: large;
+font-weight: bold;
+transition: 0.2s;
+}
+.signinbtn:hover{
+  background-color: black;
+  color: white;
+  padding: 10px ;
+  width: 70%;
+border-radius: 10px;
+border: none;
+margin-left: 55px;
+cursor: pointer;
+margin-top: 70px;
+font-size: large;
+font-weight: bold;
+transition: 0.2s;
+}
+.signindiv{
+  margin: 40px;
+  margin-left:60px ;
+  backdrop-filter: blur(10px);
+}
+.Signup{
+height: 400px;
+width: 400px;
+border: 1px solid white;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+box-shadow: 0px 0px 15px 5px #fff;
+margin-bottom: 20px;
+}
+.signdiv{
+  margin: 45px;
+  margin-left:75px ;
+  position: relative;
+  
+}
+.signdiv span{
+position: absolute;
+top: 9px;
+left: 8px;
+font-size: smaller;
+}
+.signdiv label input:focus + .signdiv span{
+  /* position: absolute; */
+  /* color: white;
+  top: 0;
+  left: 10px;
+  font-size: smaller; */
+  font-size: 100px;
+}
+.sign{
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+}
+.signbtn{
+  padding: 10px ;
+  width: 60%;
+border-radius: 10px;
+border: none;
+margin-left: 78px;
+cursor: pointer;
+margin-top: 20px;
+font-size: large;
+font-weight: bold;
+transition: .2s;
+}
+.signbtn:hover{
+  background-color: black;
+  color: white;
+  padding: 10px ;
+  width: 70%;
+border-radius: 10px;
+border: none;
+margin-left: 60px;
+cursor: pointer;
+margin-top: 20px;
+font-size: large;
+font-weight: bold;
+}
+.signalready{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+label{
+  display:grid;
+  font-weight: bolder;
+ color: black;
+
+}
+.col-2{
+  
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.X{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.popup{
+  /* z-index: 0; */
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid black;
+  position: absolute;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative; */
+left: 430px;
+top:150px;
+background-color: black;
+
+}
+.w-i{
+
+  width: 100%;
+  padding: 10px 0;
+background-color: black;
+color: white;
+margin: 5px 0;
+display: flex;
+justify-content: space-between;
+}
+.btns{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  
+}
+.btn{
+  padding: 5px 5px;
+  cursor: pointer;
+ 
+}
+.WTD{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.btn-Add{
+  /* border-radius: 10px; */
+  padding: 10px 20px;
+  width: 15%;
+  cursor: pointer;
+}
+.input-work{
+  width: 80%;
+}
+.WT{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 10px; */
+  /* margin-left: 50px; */
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+.workerT{
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.workTodos{
+  /* height: 400px; */
+  width: 600px;
+  /* border: 2px solid black; */
+}
+.Xclose{
+  position: absolute;
+ display: none;
+  right: 10px;
+ top: 10px;
+ cursor: pointer;
+  color: black;
+}
+.wtodo{
+  overflow: hidden;
+  justify-content: center;
+  align-content: center;
+}
+.divclose:hover .Xclose{
+  display: block;
+}
+.divclose{
+  position: relative;
+}
+input{
+  border: none;
+  width: 50%;
+  padding: 10px;
+}
+.colinp{
+  width: 100%;
+}
+.crcol{
+
+  padding: 10px 20px;
+  /* margin-left: 50px; */
+  margin:5px;
+}
+/* button{
+  background-color: black;
+ 
+
+} */
+.btn-new{
+  color: white;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+}
+.col-list{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+  margin: 10px;
+}
+.col-single{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: black;
+  flex-wrap: wrap;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-wrap: anywhere;
+  overflow: hidden;
+  position: relative;
+}
+.col{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+padding-top: 60px;
+  /* height: 100px; */
+ /* margin-top: 20px; */
+  /* display: flex;
+  flex-direction: column; */
+  color: white;
+width: 100%;
+height: 100%;
+ 
+}
+.nav{
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  /* top: 0; */
+
+}
+.foot{
+  background-color: black;
+position:fixed;
+bottom: 0;
+width: 100%;
+color: white;
+padding: 10px 0;
+justify-content: center;
+text-align: center;
+}
+
+h1{
+  color: white;
+  margin-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800;
+ 
+}
+@media (min-width: 250px)  and (max-width:600px){
+  .foot {
+    padding: 20px 0;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    margin: 0;
+  }
+  .nav{
+    background-color: black;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+  .col-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+     margin: 10px;
+     /* position: absolute;
+     right: 100px; */
+     width: 100%;
+   }
+   .col-single{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: black;
+    flex-wrap: wrap;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: anywhere;
+    overflow: hidden;
+    /* background-color: red; */
+    /* position: relative; */
+  }
+  .WT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    /* margin-left: 50px; */
+    padding-top: 100px;
+    padding-bottom: 35px;
+    
+  }
+  .workerT{
+    display: flex;
+    justify-content: space-between;
+  }
+  .col{
+ 
+    display: flex;
+  justify-content: end;
+    align-items: center;
+    flex-direction: column;
+  padding-top: 60px;
+    /* height: 100px; */
+   /* margin-top: 20px; */
+    /* display: flex;
+    flex-direction: column; */
+    color: white;
+  width: 100%;
+  height: 100%;
+   
+  }
+  .collection{
+    /* height: 400px; */
+    width: 100%;
+   margin-top: 50px;
+   margin-bottom: 40px;
+    /* display: flex;
+    /* display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between; */
+     /* border: 2px solid black;  */
+  
+  }
+  .workTodos{
+    /* height: 400px; */
+    width: 600px;
+    /* border: 2px solid black; */
+  }
+}
