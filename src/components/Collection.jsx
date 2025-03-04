@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import Nav from './nav';
-import Footer from './footer';
+import Footer from './Footer';
 import Cookies from 'js-cookie'
 import Complement from './complement';
 import { useNavigate } from 'react-router-dom'
