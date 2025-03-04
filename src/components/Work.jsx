@@ -67,11 +67,11 @@ useEffect(() => {
     try {
       const response = await fetch('https://todo-backend-theta-ashy.vercel.app/worktodos', {
           method: 'POST',
+            credentials: 'include',
           headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${token}`
           },
-          credentials: 'include',
           body: JSON.stringify({ title:WR}),
       });
 
