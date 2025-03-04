@@ -95,7 +95,7 @@ function toast(){
         const username2 = username.current.value;
         const password2 = password.current.value;
         try {
-            const response = await fetch('http://localhost:3001/signup', {
+            const response = await fetch('https://todo-backend-theta-ashy.vercel.app/signup', {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',
