@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Nav from './components/nav'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 import Collection from './components/Collection'
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import Work from './components/Work'
