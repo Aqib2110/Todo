@@ -61,7 +61,8 @@ useEffect(() => {
     const workref = useRef();
 
    
-   const handleWorkerClick = async()=>{
+   const handleWorkerClick = async(e)=>{
+       e.preventDefault();
     const WR = workref.current.value;
     try {
       const response = await fetch('https://todo-backend-theta-ashy.vercel.app/worktodos', {
@@ -81,7 +82,7 @@ setfetchtodo(true);
 
         
               // navigate('/Work');
-        workref.current.value = " "; 
+        workref.current.value = ""; 
       } else {
           console.log("failed to post todo");
       }
