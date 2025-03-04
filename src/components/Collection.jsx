@@ -16,7 +16,7 @@ const Collection = () => {
             navigate('/signup');
             return;
         }
-        fetch("https://todo-backend-theta-ashy.vercel.app", {
+        fetch("https://todo-backend-theta-ashy.vercel.app/", {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
