@@ -14,7 +14,7 @@ useEffect(() => {
     navigate('/signup');
     return;
 }
-  fetch('http://localhost:3001/Personaltodos',{
+  fetch('https://todo-backend-theta-ashy.vercel.app/Personaltodos',{
     headers: {
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${token}`
