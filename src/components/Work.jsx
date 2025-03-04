@@ -141,7 +141,7 @@ setfetchtodo(true)
       <div className='workTodos'>
         <div className='workerT'>
 <input className='input-work' type="text" placeholder='Enter todos here...' ref={workref} required/>
-<button className='btn-Add' onClick={handleWorkerClick}  onTouchStart={handleWorkerClick} >Add</button>
+<button className='btn-Add' onClick={handleWorkerClick} >Add</button>
         </div>
         <div className='WTD'>
     
