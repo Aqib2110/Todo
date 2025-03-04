@@ -64,7 +64,7 @@ useEffect(() => {
    const handleWorkerClick = async()=>{
     const WR = workref.current.value;
     try {
-      const response = await fetch('http://localhost:3001/Hometodos', {
+      const response = await fetch('https://todo-backend-theta-ashy.vercel.app/Hometodos', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -93,7 +93,7 @@ setfetchtodo(true);
   
    const handleDelete = async(d)=>{
     try {
-      const response = await fetch('http://localhost:3001/Hometodos', {
+      const response = await fetch('https://todo-backend-theta-ashy.vercel.app/Hometodos', {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json',
@@ -116,7 +116,7 @@ setfetchtodo(true)
    const handleUpdate = async(work)=>{
   
     try {
-      fetch('http://localhost:3001/Hometodos', {
+      fetch('https://todo-backend-theta-ashy.vercel.app/Hometodos', {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
