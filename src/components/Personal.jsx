@@ -35,7 +35,7 @@ useEffect(() => {
     const handleWorkerClick = async()=>{
       const WR = workref.current.value;
       try {
-        const response = await fetch('http://localhost:3001/Personaltodos', {
+        const response = await fetch('https://todo-backend-theta-ashy.vercel.app/Personaltodos', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -63,7 +63,7 @@ useEffect(() => {
      }
      const handleDelete = async(d)=>{
       try {
-        const response = await fetch('http://localhost:3001/Personaltodos', {
+        const response = await fetch('https://todo-backend-theta-ashy.vercel.app/Personaltodos', {
             method: 'DELETE',
             headers: {
               'Content-Type': 'application/json',
@@ -86,7 +86,7 @@ useEffect(() => {
      const handleUpdate = async(work)=>{
       workref.current.value = work.title;
       try {
-        fetch('http://localhost:3001/Personaltodos', {
+        fetch('https://todo-backend-theta-ashy.vercel.app/Personaltodos', {
           method: 'DELETE',
           headers: {
             'Content-Type': 'application/json',
