@@ -27,6 +27,9 @@ const Collection = () => {
                 alert(data.message);
                 navigate('/');
             }
+            else{
+                navigate('/signup');
+            }
         }).catch((err) => {
            
             navigate('/signup');
