@@ -49,6 +49,9 @@ useEffect(() => {
       setworkTodo(data.todos);
       console.log(data.todos);
     }
+       else{
+      setworkTodo([]);
+    }
   }).catch(err=>{
     console.log(err);
   })
